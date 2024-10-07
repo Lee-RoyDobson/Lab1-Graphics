@@ -1,0 +1,10 @@
+# ninja log v5
+5	130	0	CMakeFiles/CopyShaders	6b2c93bf71ea707d
+182	708	7500147528456673	CMakeFiles/ModelViewer.dir/src/Camera.cpp.obj	b200637153754bf1
+181	1191	7500148079105242	CMakeFiles/ModelViewer.dir/src/main.cpp.obj	e4a3a9ecd86e4b52
+25	158	0	C:/Users/100597844/Downloads/Lab1_windows/Lab1_windows/out/build/x64-debug/CMakeFiles/CopyModels	25971941cf62c79a
+5	130	0	C:/Users/100597844/Downloads/Lab1_windows/Lab1_windows/out/build/x64-debug/CMakeFiles/CopyShaders	6b2c93bf71ea707d
+206	1110	7500114900560240	CMakeFiles/ModelViewer.dir/src/Obj.cpp.obj	a29c74b70aa128cf
+25	158	0	CMakeFiles/CopyModels	25971941cf62c79a
+225	745	7500058973751807	CMakeFiles/ModelViewer.dir/src/Shader.cpp.obj	d4fe3de829730412
+1193	1657	7500148083183499	ModelViewer.exe	88b60df55f233599
