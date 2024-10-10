@@ -18,20 +18,22 @@ glm::mat3 rotation(const float degrees,const glm::vec3 axis){
 
     return cosTheta * I + sinTheta * axisCrossProduct + (1.0f - cosTheta) * axisOuterProduct;
 }
-
-void Camera::rotateRight(const float degrees){
-    glm::mat3 rotMatrix = rotation(degrees, up);
-    glm::vec3 direction = target - eye;
-    direction = rotMatrix * direction;
-    target = eye + direction;
+// Rotate the camera around the target to the right
+void Camera::rotateRight(const float degrees) {
+    glm::mat3 rotMatrix = rotation(-degrees, up);
+    glm::vec3 direction = eye - target; // direction from target to eye
+    direction = rotMatrix * direction; // rotate the direction
+    eye = target + direction; // update eye position
 }
-void Camera::rotateUp(const float degrees){
-    glm::vec3 right = glm::normalize(glm::cross(target - eye, up));
+
+// Rotate the camera around the target upwards
+void Camera::rotateUp(const float degrees) {
+	glm::vec3 right = glm::normalize(glm::cross(target - eye, up)); // right vector from cross product
     glm::mat3 rotMatrix = rotation(degrees, right);
-    glm::vec3 direction = target - eye;
-    direction = rotMatrix * direction;
-    target = eye + direction;
-    up = rotMatrix * up;
+    glm::vec3 direction = eye - target; // direction from target to eye
+    direction = rotMatrix * direction; // rotate the direction
+    eye = target + direction; // update eye position
+    up = rotMatrix * up; // update the up vector
 }
 void Camera::computeMatrices(){
     // Update the view matrix using eye, target, and up
