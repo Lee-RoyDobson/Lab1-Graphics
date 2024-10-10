@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/100597844/Downloads/Lab1_windows/Lab1_windows
+# Install script for directory: C:/Temp/GIT/Lab1-Graphics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/100597844/Downloads/Lab1_windows/Lab1_windows/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Temp/GIT/Lab1-Graphics/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/100597844/Downloads/Lab1_windows/Lab1_windows/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Temp/GIT/Lab1-Graphics/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

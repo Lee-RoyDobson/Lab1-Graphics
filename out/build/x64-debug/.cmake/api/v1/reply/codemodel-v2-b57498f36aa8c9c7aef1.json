@@ -57,7 +57,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ModelViewer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ModelViewer-Debug-bce6c9b01a86c369dafb.json",
+					"jsonFile" : "target-ModelViewer-Debug-ac696c72567785124b6b.json",
 					"name" : "ModelViewer",
 					"projectIndex" : 0
 				}
@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/100597844/Downloads/Lab1_windows/Lab1_windows/out/build/x64-debug",
-		"source" : "C:/Users/100597844/Downloads/Lab1_windows/Lab1_windows"
+		"build" : "C:/Temp/GIT/Lab1-Graphics/out/build/x64-debug",
+		"source" : "C:/Temp/GIT/Lab1-Graphics"
 	},
 	"version" : 
 	{

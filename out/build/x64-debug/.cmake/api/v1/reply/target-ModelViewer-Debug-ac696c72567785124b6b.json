@@ -79,7 +79,7 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/100597844/Downloads/Lab1_windows/Lab1_windows/include"
+					"path" : "C:/Temp/GIT/Lab1-Graphics/include"
 				}
 			],
 			"language" : "CXX",
@@ -118,7 +118,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LIBPATH:C:\\Users\\100597844\\Downloads\\Lab1_windows\\Lab1_windows\\lib",
+				"fragment" : "-LIBPATH:C:\\Temp\\GIT\\Lab1-Graphics\\lib",
 				"role" : "libraryPath"
 			},
 			{
